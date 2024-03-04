@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="HTML5 Template Vie onepage themeforest" />
+    <meta name="description" content="Vie - Onepage Multi-Purpose HTML5 Template" />
+    <meta name="author" content="" />
+
+    <!-- Title  -->
+    <title>Vie</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+
+	<!--Carrousel -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function () {
+    $('.carousel').carousel({
+        interval: 4500,
+        pause: "true"
+    });
+
+    function moveCarousel() {
+        $('#servicesCarousel').carousel('next');
+    }
+
+    // Intervalo para mover o carrossel
+    setInterval(moveCarousel, 4500); // Ajuste 2000 para a velocidade que deseja
+});
+</script>
+
+<!--Carrousel 2 -->
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        pauseOnMouseEnter: true,
+        autoplay: {
+            delay: 2500,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        effect: 'slide',
+    });
+
+
+
+</script>
+
+<!-- js -->
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+
+
+
+    <!-- ==================== Start Loading ==================== -->
+
+    <div class="loading">
+        <span>A</span>
+        <span>G</span>
+        <span>U</span>
+        <span>A</span>
+        <span>R</span>
+        <span>D</span>
+        <span>E</span>
+    </div>
+
+    <div id="preloader">
+    </div>
+
+    <!-- ==================== End Loading ==================== -->
+
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+
+    <!-- ==================== Start cursor ==================== -->
+
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <!-- ==================== End cursor ==================== -->
+
+
+
+    <!-- ==================== Start Navbar ==================== -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="logo" href="#">
+                <img src="img/logo-light.png" alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobrenos">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">O que Fazemos</a>
+                    </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Últimos Trabalhos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clientes">Clientes</a>
+                    </li>
+				   <li class="nav-item">
+                        <a class="nav-link" href="#estrategia">Estratégias</a>
+                    </li>
+				   <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+				   <li class="nav-item">
+                        <div class="dropdown lag__dropdown" tab-index="0">
+                            <button id="dropdown-btn"></button>
+                            <ul class="dropdown-content" id="dropdown-content"></ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== End Navbar ==================== -->
+
+
+
+    <!-- ==================== Start Slider ==================== -->
+    <header id="home" class="particles circle-bg valign">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="cont text-center">
+                        <h1><span class="color-font">Conectamos</span> Projetos Gamers com Marcas <span
+                                class="color-font">e Vice-Versa</span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="gradient-circle"></div>
+            <div class="gradient-circle two"></div>
+        </div>
+        <div class="line bottom left"></div>
+
+        <!-- Vídeo de Fundo -->
+        <video autoplay muted loop id="background-video" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+            <source src="seu_video.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+    </header>
+    <!-- ==================== End Slider ==================== -->
+
+
+
+    <!-- ==================== Start About agency ==================== -->
+
+    <section id="sobrenos" class="agency section-padding position-re">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="imgsec md-mb50">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="item">
+                                    <div class="imgone big-bord wow fadeInDown" data-wow-delay=".8s">
+                                        <img class="thumparallax-down" src="img/01.jpg" alt="">
+                                    </div>
+                                    <div class="exp">
+                                        <h2 class="nmb-font">18</h2>
+                                        <h6>Anos de Experiência</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="item">
+                                    <div class="imgtwo big-bord wow fadeInUp" data-wow-delay=".6s">
+                                        <img class="thumparallax" src="img/02.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-5 valign">
+                    <div class="content">
+                        <h4 class="wow" data-splitting>Líderes em Game Marketing e Digital Influencers</h4>
+                        <p class="wow txt" data-splitting>Somos especialistas em unir marcas a projetos gamers e influenciadores, criando campanhas inovadoras e impactantes. Nossa agência desenvolve estratégias que ressoam com o público gamer e ampliam a presença de marcas através de influenciadores digitais e projetos especiais.<br><br>Nosso foco é gerar conexões significativas e experiências envolventes, superando expectativas e criando um engajamento duradouro no cenário gamer e digital. </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line bottom right"></div>
+    </section>
+
+    <!-- ==================== End About agency ==================== -->
+
+      <!-- ==================== Start Services ==================== -->
+    <br><br>
+    <section id="servicos" class="services bords section-padding pt-0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <div class="sec-head text-center">
+                        <h6 class="wow fadeIn" data-wow-delay=".5s">Nossos Melhores Serviços</h6>
+                        <h3 class="wow color-font">Conheça as Soluções Que Te Levarão ao Próximo Nível</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carrossel de serviços -->
+            <div id="servicesCarousel " class="carousel slide d-none" data-ride="carousel">
+
+                <!-- Indicadores de bolinhas -->
+                <ol class="carousel-indicators">
+                    <li data-target="#servicesCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#servicesCarousel" data-slide-to="1"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <!-- Slide 1 com 3 serviços -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <!-- Serviço 1 -->
+                            <div class="col-lg-4">
+                                <div class="item-box md-mb50">
+                                    <span class="icon pe-7s-paint-bucket"></span>
+                                    <h6>Planejamento de Mídia</h6>
+                                    <p>Estratégias eficazes para divulgação e alcance em diferentes mídias.</p> <a href="a#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                                </div>
+                            </div>
+
+                            <!-- Serviço 2 -->
+                            <div class="col-lg-4">
+                                <div class="item-box md-mb50">
+                                    <span class="icon pe-7s-phone"></span>
+                                    <h6>Produção 360º</h6>
+                                    <p>Produzimos conteúdos impactantes para sua marca.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                                </div>
+                            </div>
+
+                            <!-- Serviço 3 -->
+                            <div class="col-lg-4">
+                                <div class="item-box">
+                                    <span class="icon pe-7s-display1"></span>
+                                    <h6>Produção de Eventos</h6>
+                                    <p>Planejamos e executamos eventos que unem jogadores e marcas.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 com mais 3 serviços -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <!-- Serviço 4 -->
+                            <div class="col-lg-4">
+                                <div class="item-box md-mb50">
+                                    <span class="icon pe-7s-global"></span>
+                                    <h6>Marketing de Influência</h6>
+                                    <p>Conectamos marcas e influenciadores para campanhas.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                                </div>
+                            </div>
+
+                            <!-- Serviço 5 -->
+                            <div class="col-lg-4">
+                                <div class="item-box md-mb50">
+                                    <span class="icon pe-7s-graph1"></span>
+                                    <h6>Agenciamento de Publishers</h6>
+                                    <p>Ligamos editores a mercados e marcas, maximizando alcance e lucro.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                                </div>
+                            </div>
+
+                            <!-- Serviço 6 -->
+                            <div class="col-lg-4">
+                                <div class="item-box">
+                                    <span class="icon pe-7s-star"></span>
+                                    <h6>Consultoria</h6>
+                                    <p>Gerando ações impactantes para o mercado gamer.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 com mais 3 serviços -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <!-- Serviço 4 -->
+                            <div class="col-lg-4">
+                                <div class="item-box md-mb50">
+                                    <span class="icon pe-7s-global"></span>
+                                    <h6>Marketing de Influência</h6>
+                                    <p>Conectamos marcas e influenciadores para campanhas.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                                </div>
+                            </div>
+
+                            <!-- Serviço 5 -->
+                            <div class="col-lg-4">
+                                <div class="item-box md-mb50">
+                                    <span class="icon pe-7s-graph1"></span>
+                                    <h6>Agenciamento de Publishers</h6>
+                                    <p>Ligamos editores a mercados e marcas, maximizando alcance e lucro.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                                </div>
+                            </div>
+
+                            <!-- Serviço 6 -->
+                            <div class="col-lg-4">
+                                <div class="item-box">
+                                    <span class="icon pe-7s-star"></span>
+                                    <h6>Consultoria</h6>
+                                    <p>Gerando ações impactantes para o mercado gamer.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Remova os controles do carrossel se não forem mais necessários -->
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="services__slider owl-carousel">
+                        <div class="svc__blk">
+                            <div class="item-box md-mb50">
+                                <span class="icon pe-7s-paint-bucket"></span>
+                                <h6>Planejamento de Mídia</h6>
+                                <p>Estratégias eficazes para divulgação e alcance em diferentes mídias.</p> <a href="a#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                            </div>
+                        </div>
+                        <div class="svc__blk">
+                            <div class="item-box md-mb50">
+                                <span class="icon pe-7s-phone"></span>
+                                <h6>Produção 360º</h6>
+                                <p>Produzimos conteúdos impactantes para sua marca.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                            </div>
+                        </div>
+                        <div class="svc__blk">
+                            <div class="item-box">
+                                <span class="icon pe-7s-display1"></span>
+                                <h6>Produção de Eventos</h6>
+                                <p>Planejamos e executamos eventos que unem jogadores e marcas.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                            </div>
+                        </div>
+                        <div class="svc__blk">
+                            <div class="item-box md-mb50">
+                                <span class="icon pe-7s-global"></span>
+                                <h6>Marketing de Influência</h6>
+                                <p>Conectamos marcas e influenciadores para campanhas.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                            </div>
+                        </div>
+                        <div class="svc__blk">
+                            <div class="item-box md-mb50">
+                                <span class="icon pe-7s-graph1"></span>
+                                <h6>Agenciamento de Publishers</h6>
+                                <p>Ligamos editores a mercados e marcas, maximizando alcance e lucro.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                            </div>
+                        </div>
+                        <div class="svc__blk">
+                            <div class="item-box">
+                                <span class="icon pe-7s-star"></span>
+                                <h6>Consultoria</h6>
+                                <p>Gerando ações impactantes para o mercado gamer.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                            </div>
+                        </div>
+                        <div class="svc__blk">
+                            <div class="item-box md-mb50">
+                                <span class="icon pe-7s-global"></span>
+                                <h6>Marketing de Influência</h6>
+                                <p>Conectamos marcas e influenciadores para campanhas.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                            </div>
+                        </div>
+                        <div class="svc__blk">
+                            <div class="item-box md-mb50">
+                                <span class="icon pe-7s-graph1"></span>
+                                <h6>Agenciamento de Publishers</h6>
+                                <p>Ligamos editores a mercados e marcas, maximizando alcance e lucro.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                            </div>
+                        </div>
+                        <div class="svc__blk">
+                            <div class="item-box">
+                                <span class="icon pe-7s-star"></span>
+                                <h6>Consultoria</h6>
+                                <p>Gerando ações impactantes para o mercado gamer.</p> <a href="#" class="butn bord curve mt-40"><span>Saiba Mais</span></a><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==================== End Services ==================== -->
+  <!-- ==================== Start works ==================== -->
+
+        <section id="portfolio" class="work-carousel metro position-re">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 no-padding">
+ <div class="sec-head  text-center">
+                        <h6 class="wow fadeIn" data-wow-delay=".5s">Portfolio</h6>
+                        <h3 class="wow color-font">Conheça Nossos Projetos<br> Mais Recentes</h3>
+                    </div>
+                        <div class="swiper- container active">
+                           
+
+                            <!-- slider setting -->
+                            <!-- <div class="swiper-button-next swiper-nav-ctrl simp-next cursor-pointer">
+                                <span class="simple-btn right">PRÓXIMO</span>
+                            </div>
+                            <div class="swiper-button-prev swiper-nav-ctrl simp-prev cursor-pointer">
+                                <span class="simple-btn">ANTERIOR</span>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="portfolio_slider_main">
+                        <div class="portfolio_slider owl-carousel">
+                            <div class="swiper-slide__blk">
+                                <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                    <div class="item-img bg-img wow imago"
+                                        data-background="img/portfolio/metro/01.jpg">
+                                    </div>
+                                    <div class="cont">
+                                        <h6 class="color-font"><a href="#0">Produção 360º</a></h6>
+                                        <h4><a href="bak.html">King is Bak - Evento Presencial</a></h4><a href="bak.html" class="butn bord curve mt-40"><span>Ver Detalhes</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide__blk">
+                                <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                    <div class="item-img bg-img wow imago"
+                                        data-background="img/portfolio/metro/02.jpg">
+                                    </div>
+                                    <div class="cont">
+                                        <h6 class="color-font"><a href="#0">Agenciamento e Produção</a></h6>
+                                        <h4><a href="ecopasp.html">e-Copa São Paulo - Evento Público</a></h4><a href="ecopasp.html" class="butn bord curve mt-40"><span>Ver Detalhes</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide__blk">
+                                <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                    <div class="item-img bg-img wow imago"
+                                        data-background="img/portfolio/metro/03.jpg">
+                                    </div>
+                                    <div class="cont">
+                                        <h6 class="color-font"><a href="#0">Agenciamento e Produção</a></h6>
+                                        <h4><a href="#">Brazzino 777 e MC Guimê</a></h4><a href="#" class="butn bord curve mt-40"><span>Ver Detalhes</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide__blk">
+                                <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                    <div class="item-img bg-img wow imago"
+                                        data-background="img/portfolio/metro/04.jpg">
+                                    </div>
+                                    <div class="cont">
+                                        <h6 class="color-font"><a href="#0">Agenciamento e Produção</a></h6>
+                                        <h4><a href="#">Brazzino 777 e Lexa</a></h4><a href="#" class="butn bord curve mt-40"><span>Ver Detalhes</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide__blk">
+                                <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                    <div class="item-img bg-img wow imago"
+                                        data-background="img/portfolio/metro/05.jpg">
+                                    </div>
+                                    <div class="cont">
+                                        <h6 class="color-font"><a href="#0">Agenciamento e Produção</a></h6>
+                                        <h4><a href="#">Esportes da Sorte</a></h4><a href="#" class="butn bord curve mt-40"><span>Ver Detalhes</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide__blk">
+                                <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                    <div class="item-img bg-img wow imago"
+                                        data-background="img/portfolio/metro/06.jpg">
+                                    </div>
+                                    <div class="cont">
+                                        <h6 class="color-font"><a href="#0">Agenciamento e Produção</a></h6>
+                                        <h4><a href="#">Flamengo eSports</a></h4><a href="#" class="butn bord curve mt-40"><span>Ver Detalhes</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide__blk">
+                                <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                    <div class="item-img bg-img wow imago"
+                                        data-background="img/portfolio/metro/07.jpg">
+                                    </div>
+                                    <div class="cont">
+                                        <h6 class="color-font"><a href="#0">Agenciamento e Produção</a></h6>
+                                        <h4><a href="#">Redragon</a></h4><a href="#" class="butn bord curve mt-40"><span>Ver Detalhes</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide__blk">
+                                <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                    <div class="item-img bg-img wow imago"
+                                        data-background="img/portfolio/metro/08.jpg">
+                                    </div>
+                                    <div class="cont">
+                                        <h6 class="color-font"><a href="#0">Agenciamento e Produção</a></h6>
+                                        <h4><a href="#">Julia Garcia</a></h4> <a href="#" class="butn bord curve mt-40"><span>Ver Detalhes</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide__blk">
+                                <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                    <div class="item-img bg-img wow imago"
+                                        data-background="img/portfolio/metro/01.jpg">
+                                    </div>
+                                    <div class="cont">
+                                        <h6 class="color-font"><a href="#0">Produção 360º</a></h6>
+                                        <h4><a href="bak.html">King is Bak - Evento Presencial</a></h4><a href="bak.html" class="butn bord curve mt-40"><span>Ver Detalhes</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide__blk">
+                                <div class="content wow noraidus fadeInUp" data-wow-delay=".3s">
+                                    <div class="item-img bg-img wow imago"
+                                        data-background="img/portfolio/metro/02.jpg">
+                                    </div>
+                                    <div class="cont">
+                                        <h6 class="color-font"><a href="#0">Agenciamento e Produção</a></h6>
+                                        <h4><a href="ecopasp.html">e-Copa São Paulo - Evento Público</a></h4><a href="ecopasp.html" class="butn bord curve mt-40"><span>Ver Detalhes</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== End works ==================== -->
+
+	
+	 <!-- ==================== Start clients Brands ==================== -->
+
+        <section id="clientes" class="clients section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 valign md-mb50">
+                        <div class="sec-head mb-0">
+                            <h6 class="wow fadeIn" data-wow-delay=".5s">Marcas Poderosas</h6>
+                            <h3 class="wow mb-20 color-font">Nossos Clientes</h3>
+                            <p>Marcas globais renomadas escolhem nosso trabalho pela excelência e inovação.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div>
+                            <div class="row bord">
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/01.png" alt="">
+                                            <a href="#" class="link" data-splitting>Flamengo eSports</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".6s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/02.png" alt="">
+                                            <a href="#" class="link" data-splitting>Redragon</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".8s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/03.png" alt="">
+                                            <a href="#" class="link" data-splitting>Intel</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/04.png" alt="">
+                                            <a href="#0" class="link" data-splitting>Mastercard</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 col-6 brands sm-mb30">
+                                    <div class="item wow fadeIn" data-wow-delay=".4s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/05.png" alt="">
+                                            <a href="#" class="link" data-splitting>Esportes da Sorte</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands sm-mb30">
+                                    <div class="item wow fadeIn" data-wow-delay=".7s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/06.png" alt="">
+                                            <a href="#0" class="link" data-splitting>Betano</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".5s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/07.png" alt="">
+                                            <a href="#0" class="link" data-splitting>Brazzino</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/08.png" alt="">
+                                            <a href="#" class="link" data-splitting>PixBet</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== End clients Brands ==================== -->
+
+    <!-- ==================== Start Minimal-Area ==================== -->
+
+    <section id="estrategia" class="min-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="img">
+                        <img class="thumparallax-down" src="img/content_isa.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 valign">
+                    <div class="content">
+                        <h4 class="color-font">Conteúdos que Geram Resultados!</h4>
+                        <p class="wow txt" data-splitting>Criar conteúdos que não apenas capturam a atenção, mas também entregam resultados tangíveis, é a chave para o sucesso em qualquer marca - da imprensa tradicional à efervescente esfera digital. Ao tecer estratégias inovadoras e criativas, transformamos ideias em impactos mensuráveis e marcantes, elevando cada mensagem além do convencional.
+                        </p>
+                        <ul>
+                            <li class="wow fadeInUp" data-wow-delay=".2s">Assessoria de Imprensa Estratégica.</li>
+                            <li class="wow fadeInUp" data-wow-delay=".4s">Marketing de Conteúdo Digital.</li>
+                        </ul>
+                        <a href="#" class="butn bord curve mt-40 wow fadeInUp"
+                            data-wow-delay=".8s"><span>Entenda Mais</span></a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== End Minimal-Area ==================== -->
+
+
+
+    <!-- ==================== Start numbers ==================== -->
+
+        <section id="dados" class="number-sec section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-10">
+                        <div class="sec-head  text-center">
+                            <h6 class="wow fadeIn" data-wow-delay=".5s">DADOS IMPORTANTES</h6>
+                            <h3 class="wow color-font">O prazer no trabalho coloca perfeição nos resultados.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="item no-bord sm-mb50">
+                            <span class="icon pe-7s-smile"></span>
+                            <h3 class=""><span class="count">87</span></h3>
+                            <p class="wow txt" data-splitting>Clientes Satisfeitos Com os Resultados Obtidos Durante Campanha</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item no-bord sm-mb50">
+                            <span class="icon pe-7s-portfolio"></span>
+                            <h3 class=""><span class="count">387</span></h3>
+                            <p class="wow txt" data-splitting>Projetos Entregues no Decorrer Dos Últimos Anos Aplicados</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item no-bord">
+                            <span class="icon pe-7s-medal"></span>
+                            <h3 class=""><span class="count">Top 1</span></h3>
+                            <p class="wow txt" data-splitting>Reconhecida Como a Maior e Melhor Agência Gamer da América Latina</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== End numbers ==================== -->
+
+
+    <!-- ==================== Start call-to-action ==================== -->
+
+    <section class="call-action section-padding bg-img" data-background="img/patrn.svg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-9">
+                    <div class="content sm-mb30">
+                        <h6 class="wow" data-splitting>Vamos Conversar</h6>
+                        <h2 class="wow" data-splitting>sobre o seu <br> <b class="back-color">próximo projeto</b></h2>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 valign">
+                    <a href="#contato" class="butn bord curve wow fadeInUp" data-wow-delay=".5s"><span>Comece
+                            Agora</span></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== End call-to-action ==================== -->
+
+
+<!-- ==================== Start Contact ==================== -->
+
+        <section id="contato" class="contact-sec section-padding position-re" data-scroll-index="7">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-10">
+                        <div class="sec-head  text-center">
+                            <h6 class="wow fadeIn" data-wow-delay=".5s">Fale Conosco</h6>
+                            <h3 class="wow color-font">Entre em contato e vamos juntos fazer a mágica acontecer.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="form wow fadeInUp" data-wow-delay=".5s">
+                            <form id="contact-form" method="post" action="contact.php">
+
+                                <div class="messages"></div>
+
+                                <div class="controls">
+
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="form-group">
+                                                <input id="form_name" type="text" name="name" placeholder="Name"
+                                                    required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="form-group">
+                                                <input id="form_email" type="email" name="email" placeholder="Email"
+                                                    required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="form-group">
+                                                <input id="form_name" type="text" name="name" placeholder="Name"
+                                                    required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <textarea id="form_message" name="message" placeholder="Message"
+                                                    rows="4" required="required"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="text-center">
+                                                <a href="#0" class="butn bord curve mt-30">
+                                                    <span>Send Massege</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line bottom left"></div>
+        </section>
+
+        <!-- ==================== End Contact ==================== -->
+
+        <style>
+.dropdown.lag__dropdown {
+    height: 100%;
+    display: flex;
+}
+
+.dropdown button:focus {outline: none;}
+.dropdown button:hover {color: #fff;}
+.dropdown button {
+    background-color: transparent;
+    width: max-content;
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+.dropdown button img {
+  margin: 0 5px 0 0;
+}
+.dropdown button img,
+.dropdown-content li img {
+  width: 28px;
+}
+.dropdown button, .dropdown-content li {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  vertical-align: middle;
+  border-style: solid;
+  border-width: 4px 4px 0 4px;
+  border-color: #fff transparent transparent transparent;
+  margin: 0 0 0 5px;
+}
+
+
+/* Style for the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin: 1px 0 0 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  overflow-y: scroll;
+  max-height: 315px;
+  margin-top: 60px;
+  right: 0;
+}
+/* Style for the dropdown content items */
+.dropdown-content li {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  justify-content: end;
+  cursor: pointer;
+}
+.dropdown-content li img {
+ margin-right: 10px;
+}
+
+/* Show the dropdown content when the dropdown button is clicked */
+.dropdown:focus-within .dropdown-content {
+  display: block;
+}
+/* Animate the dropdown content */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.dropdown-content {
+  animation: slideIn 0.3s ease-out;
+}
+
+.dropdown-content li {
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+.dropdown-content li img {
+    margin-left: 0;
+}
+
+/* Scrollbar styles */
+.lag__dropdown ::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+.lag__dropdown ::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #c2c9d2;
+}
+
+
+@media screen and (max-width: 991px){
+    .navbar .navbar-collapse > ul{
+        padding-top: 40px;
+        position: relative;
+    }
+    .navbar .navbar-collapse > ul > li:last-child{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .dropdown.lag__dropdown{display: block;}
+    .dropdown.lag__dropdown ul{margin-top: 10px;}
+}
+
+        </style>
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+    <!-- plugins -->
+    <script src="js/plugins.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- custom scripts -->
+    <script src="js/scripts.js"></script>
+
+<script>
+
+const locales = ["en-GB","zh-CN","es-ES","ru-RU"];
+
+function getFlagSrc(countryCode) {
+  return /^[A-Z]{2}$/.test(countryCode)
+       ? `https://flagsapi.com/${countryCode.toUpperCase()}/shiny/64.png`
+    : "";
+}
+
+const dropdownBtn = document.getElementById("dropdown-btn");
+const dropdownContent = document.getElementById("dropdown-content");
+
+function setSelectedLocale(locale) {
+  const intlLocale = new Intl.Locale(locale);
+  const langName = new Intl.DisplayNames([locale], {
+    type: "language",
+  }).of(intlLocale.language);
+
+  dropdownContent.innerHTML = "";
+
+  const otherLocales = locales.filter((loc) => loc !== locale);
+  otherLocales.forEach((otherLocale) => {
+    const otherIntlLocale = new Intl.Locale(otherLocale);
+    const otherLangName = new Intl.DisplayNames([otherLocale], {
+      type: "language",
+    }).of(otherIntlLocale.language);
+
+    const listEl = document.createElement("li");
+    listEl.innerHTML = `${otherLangName}<img src="${getFlagSrc(
+      otherIntlLocale.region
+    )}" />`;
+    listEl.value = otherLocale;
+    listEl.addEventListener("mousedown", function () {
+      setSelectedLocale(otherLocale);
+    });
+    dropdownContent.appendChild(listEl);
+  });
+
+  dropdownBtn.innerHTML = `<img src="${getFlagSrc(
+    intlLocale.region
+  )}" />${langName}<span class="arrow-down"></span>`;
+}
+
+setSelectedLocale(locales[0]);
+const browserLang = new Intl.Locale(navigator.language).language;
+for (const locale of locales) {
+  const localeLang = new Intl.Locale(locale).language;
+  if (localeLang === browserLang) {
+    setSelectedLocale(locale);
+  }
+}
+</script>
+
+<script>
+      // owlCarousel
+  $(".portfolio_slider").owlCarousel({
+    loop: true,
+    margin: 30,
+    autoplay:true,
+    stagePadding:550,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    smartSpeed: 1000,
+    items: 1,
+    navText: [
+      '<i class="fa fa-angle-left"></i>',
+      '<i class="fa fa-angle-right"></i>'
+    ],
+    nav: false,
+    dots: false,
+    center: true,
+    responsive: {
+      0: {
+    stagePadding:50,
+      },
+      480: {
+    stagePadding:130,
+      },
+      767: {
+    stagePadding:150,
+      },
+      992: {
+    stagePadding:260,
+      },
+      1200: {
+    stagePadding:300,
+      },
+      1420: {
+    stagePadding:400
+      },
+      1700: {
+    stagePadding:550,
+      }
+    }
+  });
+</script>
+
+<script>
+      // owlCarousel
+  $(".services__slider").owlCarousel({
+    loop: true,
+    margin: 30,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    smartSpeed: 1000,
+    items: 3,
+    navText: [
+      '<i class="fa fa-angle-left"></i>',
+      '<i class="fa fa-angle-right"></i>'
+    ],
+    nav: false,
+    dots: true,
+    // center: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      480: {
+        items: 2
+      },
+      767: {
+        items: 2
+      },
+      992: {
+        items: 3
+      },
+      1200: {
+        items: 3
+      },
+      1420: {
+        items: 3
+      },
+      1700: {
+        items: 3
+      }
+    }
+  });
+</script>
+
+</body>
+
+</html>
